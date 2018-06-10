@@ -1,0 +1,26 @@
+@font-face {
+    font-family: "B Homa";
+    src: url(../fonts/BHoma.ttf);
+}
+@font-face {
+    font-family: "BYasBold";
+    src: url(../fonts/BYasBold.ttf);
+}
+#mainHeader{width: 1000px;  overflow: auto; margin: auto; /*border: solid; */}
+#logo{margin-top: 10px }
+#logoHeader{float: left;  /*border: solid*/}
+#logoH5{ margin-top: 0px; text-align: center; font-family: "B Homa"; /*color: #2a88bd*/ /*border: solid;*/}
+#signHeader{float: right;}
+#userIcon{color: #777777; margin-top: 10px  }
+#signH5{float: left; margin-right: 5px; margin-top: 10px}
+#signLink{color: #888888; text-decoration: none; font-size: 14px }
+#addUserIcon{color: #777777;  }
+#addUserLink{color: #888888; text-decoration: none; font-family: "BYasBold";   }
+#PersuitLink{color: #888888; text-decoration: none; font-family: "BYasBold";   }
+#add-Persui-div{float: right; margin-right: 40px; margin-top: 15px   }
+#shopping-cartIcon{color: #ffffff; float: right; clear: left; border-left: solid 1px #1b6d85; padding:0 2px 0 2px }
+#shopping-cartLink{background-color: #2a88bd; float: right; clear: left;
+    width: 150px; text-decoration: none; text-align: center; color: #d3e0e9  ;
+    border: solid 1px #1b6d85; font-family: "BYasBold"; margin-top: 20px}
+#searchForm{float: right; clear: left;}
+

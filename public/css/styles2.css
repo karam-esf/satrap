@@ -1,0 +1,100 @@
+@font-face {
+    font-family: "B Mahsa";
+    src: url(../fonts/BMahsa.ttf);
+}
+@font-face {
+    font-family: "B Compset";
+    src: url(../fonts/BCompset.ttf);
+}
+@font-face {
+    font-family: "B Homa";
+    src: url(../fonts/BHoma.ttf);
+}
+@font-face {
+    font-family: "BYas";
+    src: url(../fonts/BYas.ttf);
+}
+@font-face {
+    font-family: "BYasBold";
+    src: url(../fonts/BYasBold.ttf);
+}
+@font-face {
+    font-family: "BNazanin";
+    src: url(../fonts/BNazanin.ttf);
+}
+#mainHeader{width: 1200px; overflow: auto; margin: auto; background-color: #ffffff;/* border: solid;*/}
+#logo{margin-top: 0px }
+#logoHeader{float: left; margin-top: 10px;  /*border: solid*/}
+#logoH5{ margin-top: 0px; text-align: center; font-family: "B Homa"; /*color: #2a88bd*/ /*border: solid;*/}
+#signHeader{float: right; margin-top: 30px; margin-right: 5px}
+#userIcon{color: #777777; margin-top: 10px; float: right}
+#signH5{ margin-right: 3px; display: inline; float: right; font-weight: bold}
+#signLink{color: #888888; text-decoration: none; font-weight: bold; font-size: 14px; float: right; margin-top: 7px }
+#addUserIcon{color: #777777; margin-right: 20px;}
+#addUserLink{color: #888888; text-decoration: none; float: right; margin-top: 7px; font-family: "BYasBold";
+    font-weight: bold   }
+#PersuitLink{color: #888888; text-decoration: none; float: right; margin-top: 7px; font-family: "BYasBold";
+    font-weight: bold   }
+#shopping-cartIcon{color: #ffffff; border-left: solid 1px #1b6d85; float: right; padding: 0px 2px 0px 2px }
+#shopping-cartLink{background-color: #2a88bd; float: right; clear: right; margin-top: 25px;
+    width: 150px; text-decoration: none; text-align: center; color: #d3e0e9  ;
+    border: solid 1px #1b6d85; font-family: "BYasBold"; font-size: 16px }
+#searchForm{float: right; margin: 22px 60px 0px 0px;  }
+#textSearch{width: 400px}
+#managAddDiv{border-left: solid 1px #d3e0e9; float: right; padding: 10px;  }
+#mngSearchDiv{float: right; border-left: solid 1px #d3e0e9;  padding: 10px; }
+.navLinks{float: right; color: #000000;  width: 25%; text-align: center; text-shadow: 2px 2px 4px #090909;
+    font-family:"B Mahsa"; font-size: 21px; }
+.navLinks:hover{ text-decoration: none /*background-color: #2a88bd;*/}
+#nav{height: 40px; background-color: #dcdadb; position: relative; margin: auto; width: 1200px; }
+#section{float: right; width: 900px; }
+#aside{float: right; width: 300px}
+#footer{ margin: auto; width: 1200px;  height: 30px; margin-top: 20px}
+.formSel{margin-top: 5px; width: 150px; text-align: right}
+#allTable{border: 1px solid blue; direction: rtl; font-size: large; overflow-x: auto; width: 100%;
+            margin: 20px 20px 0px 0px}
+#allTable tr,td{border: 1px solid gray; font-size: 14px; text-align: center;  }
+#stuff{text-align: right; font-size: 16px; font-weight: bold}
+#parametr{text-align: right; font-size: 16px; font-weight: bold; margin-top: 10px}
+#manag-butt{margin-top: 10px; font-size: 16px; font-weight: bold}
+#manag-h4{text-align: center; color: #d3e0e9; font-size: 24px;  background-color: #6b9dbb; font-family: BYas}
+#all-th{text-align: center; background-color: #6b9dbb; color: white; font-size: 24px}
+#newsLable{float: right; text-align: right; font-size: 20px; background-color: #dcdbdb;
+            width: 100%; display: block; font-family: "B Nazanin"; margin-top: 5px; border-radius: 2px}
+#showStuff-h3{background-color: #d3e0e9; float: right; width: 600px; text-align: right; font-size: 22px;
+                height: 60px; margin-top: 0px; line-height: 60%; font-family: BYas; margin-top: 10px}
+#Technic-h6{float: right; text-align: right; width: 500px; margin-right:0px; font-size: 22px;
+            font-family: 'B Nazanin'; color: #1b6d85;}
+#stuff-h6-right{margin-right: 10px; float: right; font-size:16px; font-weight: bold; width: 25%; text-align: right;
+                height: 34px; background-color: #cccccc; color: gray; line-height: 30px }
+#stuff-h6-left{margin-right: 20px; float: right; font-size:16px;  width: 38%; text-align: right; height: 34px;
+                background-color: #cccccc; color: gray; line-height: 30px}
+#stuff-textarea{width: 38%; background-color: #cccccc; text-align: right; float: right; margin-right: 20px; margin-top: 10px}
+.stuff-price{float: right; text-align: center; background-color: #71b8ee;  color: #ffffff; font-size: 20px;
+               width: 200px; height: 35px; line-height: 30px;  margin-right: 50px}
+#stuff-stock{float: right}
+.stuff-shop{font-weight: bold; font-size: 18px; float: right; border-radius: 5px; border: 2px solid; margin-right: 63px;
+             clear: right; color: white; line-height: 50px;
+                background-color: #71b8ee; font-family: 'B Nazanin'}
+.reg-label{font-family: Tahoma; font-size: 12px; float: right; margin-right: 10px; margin-top: 20px }
+.reg-h3{float: right; margin-top: 10px; color:#ffffff; width: 900px; background-color: #31708f;
+    font-family: 'B Nazanin'; text-align: right}
+.reg-submit{ color: white; background-color: #1b6d85; float: left; margin-left: 400px; margin-top: 20px;
+            font-family: "B Nazanin"; font-size: 20px }
+.signIn-submit{ color: white; background-color: #1b6d85; float: right; margin-right: 110px; margin-top: 20px;
+    font-family: "B Nazanin"; font-size: 20px }
+.reg-select{ margin-top: 20px;  direction: rtl; width: 200px; }
+.p-categori{width: 290px; margin:5px 5px 0px 0px ; border-bottom: 1px solid #ffffff; border-radius: 5px;
+            background-color: #dcdbdb; font-size: 21px; text-align: right; font-family: "B Nazanin";}
+.ul-categori{width: 290px; margin:0px 5px 0px 0px ;border-radius: 5px; background-color:#ffffff;
+                border:1px solid #e6eecb; direction: rtl; }
+.li-categori{font-family:  'B Homa'; font-size: 16px; margin-right: 5px; }
+.li-categori:hover{font-size: 18px; }
+.cart-td{border-width: 1px 0px 1px 1px ; font-size: 18px; border-color: lightgray}
+.footerLinks{display: block; text-decoration: none; color: grey; font-family: "B Compset"; font-size: 18px}
+#satrapLinks{float: right; background-color: #dcdadb; width: 400px}
+#satrapLinks:hover{text-decoration: none}
+#marks{background-color: #dcdbdb; width: 400px; float: right }
+.shopCart-h3{float: right; margin-top: 10px; color:#000000; width: 1200px; background-color: #dcdbdb;
+    font-family: 'B Nazanin'; text-align: right}
+.shop-label{color: red; float: right; font-family: 'Tahoma'; font-size:12px; margin-top: 20px;}
